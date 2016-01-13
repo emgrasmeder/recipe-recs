@@ -1,8 +1,10 @@
 __author__ = 'Emma Grasmeder'
 "@emma_gras" # Twitter
 # For the Mother-Daughter Hackathon (30 minutes)
-# Note: Written for Python 3
+# Note: Written for Python 3,
+# Use screenshots beneath ## Slide X ## header 
 
+## Slide 1 ##
 ## Basic Data Structures:
 #examples of integers:
 1
@@ -10,6 +12,7 @@ __author__ = 'Emma Grasmeder'
 33
 -99999
 
+## Slide 2 ##
 # examples of strings:
 "cat"
 "house"
@@ -17,10 +20,12 @@ __author__ = 'Emma Grasmeder'
 "[ ]"
 "one"
 
+## Slide 3 ##
 # examples of variables
 x = 13
 var1 = "these few w0rds"
 
+## Slide 4 ##
 # examples of lists:
 word_list = ["cat", "dog", "house"]
 int_list = [1, 2, 3, 4]
@@ -28,6 +33,7 @@ list_of_lists = [[1, 2, 3],
                  ["a", "b", "c"],
                  []]
 
+## Slide 5 ##
 # examples of dictionaries:
 word_dictionary = {"housecat": "a small mammal that says 'meow' ",
                    "dog": "a human's best friend",
@@ -36,7 +42,7 @@ int_to_string_dict = {1: ["one", "1"],
                       2: ["two", "2"],
                       303: ["three hundred three", "303"]}
 
-
+## Slide 6 ##
 ## A Minimum Viable Cook Book!
 # Dishes are stored in the format: ["dish name",
 #                                   "ingredient 1",..."ingredient n"]
@@ -46,6 +52,8 @@ scrambled_egg = ["scrambled egg", "egg"]
 french_bread = ["french bread", "flour", "yeast", "salt", "water"]
 
 recipes = [boiled_egg, scrambled_egg, french_bread]
+
+## Slide 7 ##
 what_we_have = []  # this is an empty list that will be filled with user input
 while True:
     response = str(input("enter ingredients you have, then type 'done' when finished: "))
@@ -53,6 +61,7 @@ while True:
         what_we_have.append(response)
     else:
         break
+## Slide 8 ##
 for r in recipes:  # here we're iterating through all the recipes
     # The first item in r is the name of the dish, so ignore it
     ingredients = r[1:]  # we ignore the first item by slicing
